@@ -9,7 +9,7 @@ model = joblib.load("iris_model.pkl")
 encoder = joblib.load("iris_labelencoder.pkl")
 
 st.set_page_config(
-    page_title="🌸 Iris Species Classifier",
+    page_title="Iris Species Classifier",
     layout="centered",
     page_icon="🌸",
 )
